@@ -1,0 +1,245 @@
+body {
+	margin: 0px;
+	overflow-y: hidden;
+	font-family: arial;
+}
+
+@font-face
+{
+    font-family: 'anudawitalic';
+    src: url('../fonts/anudi-webfont.woff2') format('woff2'),
+         url('../fonts/anudi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'anudawregular';
+    src: url('../fonts/anudrg-webfont.woff2') format('woff2'),
+         url('../fonts/anudrg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0px;
+	overflow-y: hidden;
+}
+
+#header {
+	border-top: 20px solid 	#034078;
+	height: 100px;
+	background-color: #00008B;
+	padding: 20px 10px 20px 10px;
+	font-size: 36px;
+	color: white;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+}
+
+#header1 {
+	position: absolute;
+	left: 115px;
+	top: 0px;
+}
+
+#main-container {
+	height: calc(100vh - 160px);
+}
+
+#main-left {
+	width: 450px;
+	height: 100%;
+	float: left;
+	border: 1px solid #0A1128;
+	background-color: white;
+}
+
+#main-center {
+	width: 450px;
+	height: 100%;
+	float: left;
+	border: 1px solid #0A1128;
+	overflow: auto;
+	background-color: black;
+}
+
+#main-right {
+	width: 628px;
+	height: 100%;
+	float: left;
+	border: 1px solid #0A1128;
+	overflow: auto;
+	z-index: 0;
+	background-color: white;
+}
+
+#teams ul {
+	font-size: 24px;
+	list-style: none;
+	position: absolute;
+	left: -10px;
+	top: 130px;
+}
+
+#teamnames a {
+	font-family: anudawitalic;
+	text-decoration: none;
+	color: black;
+	margin-top: 20px;
+}
+
+#teamnames a:hover {
+	background-image: url("../img/hoverimg.jpg");
+}
+
+#headerteam {
+	font-family: anudawregular;
+	color: #00008B;
+	margin-bottom: -2px;
+}
+
+.hero-card {
+	height: 186px;
+	display: flex;
+}
+
+.hero-card-img {
+	height: 200px;
+	width: 150px;
+	background-color: white;
+	float: left;
+	border: 1px solid black;
+}
+
+.hero-card-txt {
+	height: 200px;
+	width: 300px;
+}
+
+.hero-card-txt h3 {
+	font-family: anudawregular;
+	color: white;
+}
+
+.hero-card-txt p {
+	font-size: 10px;
+	color: white;
+}
+
+.infobtn {
+	border: 1px outset blue;  
+	background-color: lightblue;
+}
+
+#hero-details {
+	height: 100%;
+	background-color: grey;
+}
+
+#hero-details-Top {
+	background-color: black
+}
+
+#hero-details-img img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	top: 75px;
+	left: 239px;
+}
+
+.hero-card:nth-child(even) {
+	background-image: url("../img/cardBackground1.jpg");
+}
+
+.hero-card:nth-child(odd) {
+	background-image: url("../img/cardBackground2.jpg");
+}
+
+.right-box {
+  border: 1px solid black;
+  width: 600px;
+  height: 800px;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+.top-part {
+  border: 1px solid black;
+  width: 610px;
+  height: 150px;
+  margin-top: -1px;
+  margin-left: -1px;
+  background-image: url("../img/blackishback.jpg");
+  z-index: 0;
+}
+.hero-image-round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  z-index: 1;
+}
+.mid-part-image {
+  height: 150px;
+  width: 150px;
+  margin-top: 70px;
+  margin-right: 230px;
+  margin-left: 230px;
+}
+#right-container {
+ background-color: #dedfe0;
+ width: 747px;
+}
+
+.divSubmit
+{
+	display: block;
+	width: 250px;
+	height: 100%;
+  margin-left: 40px;
+}
+
+.divSubmit > input[type='submit']
+{
+	width: 140px;
+	height: 60px;
+	font-family: anudawregular;
+	font-size: 16px;
+	border: 1px solid #000;
+  background-color: blue;
+}
+
+.divSubmit > input[type='submit']:hover
+{
+	background-color: #f0cc00;
+	color: #000000;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+h4 {
+  font-family: "anudawregular";
+  margin-left: 40px;
+  color: blue;
+  margin-top: 20px;
+}
+h2  {
+  font-family: "anudawregular";
+  margin-left: 40px;
+  color: blue;
+  margin-top: 10px;
+}
+.text-area {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#heroName {
+	font-family: anudawitalic;
+	text-align: center;
+}
